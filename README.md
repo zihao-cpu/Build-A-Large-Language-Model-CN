@@ -105,7 +105,7 @@ Address: 185.199.109.133
 ```
 
 
-## 若希望和作者进一步交流，请关注公众号
+## 若希望和作者进一步交流，可关注公众号
 <img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
 
 
