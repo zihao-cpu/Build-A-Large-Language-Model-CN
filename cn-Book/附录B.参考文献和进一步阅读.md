@@ -16,19 +16,19 @@
 
 + BloombergGPT：金融领域的大型语言模型 (2023)，吴等人著，https://arxiv.org/abs/2303.17564
 
-
+<br />
 
 **现有的 LLM 也可以通过适配和微调来胜过通用 LLM，正如 Google Research 和 Google DeepMind 的团队在医疗领域所展示的那样：**
 
 + 使用大型语言模型实现专家级医疗问答 (2023)，Singhal 等人著，https://arxiv.org/abs/2305.09617
 
-
+<br />
 
 **提出原始 Transformer 架构的论文：**
 
 + Attention Is All You Need (2017)，Vaswani 等人著，https://arxiv.org/abs/1706.03762
 
-
+<br />
 
 **最初的编码器式 Transformer，称为 BERT：**
 
