@@ -190,11 +190,11 @@ plt.show()
 
 用数学术语来说，对于一个由分量组成的向量 v = [v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>n</sub>]，L2 范数描述为：
 
-$$ \text|v|_{2}=\sqrt{v_{1}^{2}+v_{2}^{2}+\ldots+v_{n}^{2}} $$
+$$|v|_{2}=\sqrt{v_{1}^{2}+v_{2}^{2}+\ldots+v_{n}^{2}}$$
 
 这种计算方法也适用于矩阵。例如，考虑以下梯度矩阵：
 
-$$ \text|v|_{2}=\sqrt{v_{1}^{2}+v_{2}^{2}+\ldots+v_{n}^{2}}G=\left[\begin{array}{ll}
+$$|v|_{2}=\sqrt{v_{1}^{2}+v_{2}^{2}+\ldots+v_{n}^{2}}G=\left[\begin{array}{ll}
 1 & 2 \\
 2 & 4
-\end{array}\right] $$
+\end{array}\right]$$
