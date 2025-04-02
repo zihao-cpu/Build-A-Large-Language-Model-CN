@@ -447,7 +447,7 @@ print(f"Total trainable LoRA parameters: {total_params:,}")
 Total trainable LoRA parameters: 2,666,528
 ```
 
-如我们所见，使用 LoRA 后，可将可训练参数的数量减少了近 50 倍。秩和 alpha 一般都默认设置为 16 ，但通常也会增加秩的大小，这从而增加可训练参数的数量。Alpha 通常选择为秩的一半、两倍或相等。
+如我们所见，使用 LoRA 后，可训练参数的数量减少了近 50 倍。秩和 alpha 一般都默认设置为 16 ，但通常也会增加秩的大小，这从而增加可训练参数的数量。Alpha 通常选择为秩的一半、两倍或相等。
 
 现在可以通过打印模型架构来验证这些层是否已按预期修改：
 
