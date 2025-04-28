@@ -229,7 +229,7 @@ PyTorch 张量与 NumPy 数组类似，但具有一些对深度学习来说很�
 >
 > **PyTorch 拥有类似 NumPy 的 API**
 >
-> 正如接下来的章节所示，PyTorch 在其张量运算中采用了大部分 NumPy 数组 API 和语法。果你不熟悉 NumPy ，可以通过我的文章《Python 科学计算：NumPy 和 Matplotlib 简介》（https://sebastianraschka.com/blog/2020/numpy-intro.html）快速了解最相关的概念。
+> 正如接下来的章节所示，PyTorch 在其张量运算中采用了大部分 NumPy 数组 API 和语法。如果你不熟悉 NumPy ，可以通过我的文章《Python 科学计算：NumPy 和 Matplotlib 简介》（https://sebastianraschka.com/blog/2020/numpy-intro.html）快速了解最相关的概念。
 
 接下来的小节将介绍 PyTorch 张量库的基本操作，展示如何创建简单的张量以及一些基本操作。
 
