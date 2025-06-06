@@ -77,7 +77,7 @@
 <img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
 
 ## 最新文章
-[AI浪潮下的代码与人:程序员的挑战与机遇](https://mp.weixin.qq.com/s/-vQ6ZtIzlfIKbt2dDkRxLw)
+[AI浪潮下的代码与人:程序员的挑战与机遇](https://mp.weixin.qq.com/s/-vQ6ZtIzlfIKbt2dDkRxLw)<br />
 [构建高效Prompt的艺术：从Claude 4系统提示词中汲取的设计智慧](https://mp.weixin.qq.com/s/WGZJl8VzbnZz56hJNtP-sw)
 
 
