@@ -49,6 +49,8 @@
 + [附录E：使用 LoRA 的参数高效微调](./cn-Book/附录E.使用LoRA的参数高效微调.md)
 
 
+## 若希望了解更多AI探索相关的内容，可关注作者公众号
+<img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
 
 ## 个人思考
 
@@ -108,10 +110,6 @@ Address: 185.199.109.133
 185.199.108.133 raw.githubusercontent.com
 185.199.108.133 githubusercontent.com
 ```
-
-
-## 若希望了解更多AI探索相关的内容，可关注作者公众号
-<img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
 
 
 
