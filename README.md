@@ -77,6 +77,7 @@
 <img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
 
 ## 最新文章
+[搭建一个AI研究团队：我对Claude多智能体深度研究系统的思考与实践](https://mp.weixin.qq.com/s/bOraqJUecR9vO9E23GxodA)<br />
 [谁说AI只会模仿，从Google AlphaEvolve项目看算法的自主创新](https://mp.weixin.qq.com/s/2Gjpw6xbPh3KOLFoozrvlw)<br />
 [AI浪潮下的代码与人:程序员的挑战与机遇](https://mp.weixin.qq.com/s/-vQ6ZtIzlfIKbt2dDkRxLw)<br />
 [构建高效Prompt的艺术：从Claude 4系统提示词中汲取的设计智慧](https://mp.weixin.qq.com/s/WGZJl8VzbnZz56hJNtP-sw)
