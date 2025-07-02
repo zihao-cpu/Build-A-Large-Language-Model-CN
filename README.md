@@ -77,6 +77,7 @@
 <img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
 
 ## 最新文章
+[如何让Cursor精通鸿蒙开发？](https://mp.weixin.qq.com/s/gLgP7gGU0pmGc2x1hS-0UQ)<br />
 [深度解读斯坦福AI就业报告：未来哪些工作是“绿灯”，哪些是“红灯”？](https://mp.weixin.qq.com/s/8RUntvEMcbYCTbD56-rQKg)<br />
 [搭建一个AI研究团队：我对Claude多智能体深度研究系统的思考与实践](https://mp.weixin.qq.com/s/bOraqJUecR9vO9E23GxodA)<br />
 [谁说AI只会模仿，从Google AlphaEvolve项目看算法的自主创新](https://mp.weixin.qq.com/s/2Gjpw6xbPh3KOLFoozrvlw)<br />
