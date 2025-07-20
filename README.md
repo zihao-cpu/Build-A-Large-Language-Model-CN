@@ -77,6 +77,7 @@
 <img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
 
 ## 最新文章
+[产品级AI应用的核心：上下文工程](https://mp.weixin.qq.com/s/93rEhMY7rIUlHIiPPDvEag) <br />
 [如何让Cursor精通鸿蒙开发？](https://mp.weixin.qq.com/s/gLgP7gGU0pmGc2x1hS-0UQ)<br />
 [深度解读斯坦福AI就业报告：未来哪些工作是“绿灯”，哪些是“红灯”？](https://mp.weixin.qq.com/s/8RUntvEMcbYCTbD56-rQKg)<br />
 [搭建一个AI研究团队：我对Claude多智能体深度研究系统的思考与实践](https://mp.weixin.qq.com/s/bOraqJUecR9vO9E23GxodA)<br />
