@@ -1,4 +1,4 @@
-- **Build a Large Language Model (From Scratch) 中文版**
+- **从零构建大模型**
 
   - [1.理解大语言模型](./cn-Book/1.理解大语言模型.md)
   - [2.处理文本数据](./cn-Book/2.处理文本数据.md)
