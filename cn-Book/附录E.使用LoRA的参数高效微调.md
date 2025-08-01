@@ -43,7 +43,9 @@ W<sub>updated</sub> = W + AB
 
 图 E.1 并排展示了完整微调和 LoRA 的权重更新公式。
 
-<img src="../Image/AppendixE/E.1.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixE/E.1.png" width="75%" />
+</div>
 
 如果你仔细观察，你可能会注意到图 E.1 中完整微调和 LoRA 的视觉表示与之前呈现的公式略有不同。这种差异归因于矩阵乘法的分配律，该定律允许我们分离原始权重和更新后的权重，而不是将它们组合在一起。例如，在进行常规微调的情况下，以 x 作为输入数据，我们可以将计算按如下表示:
 
@@ -312,7 +314,9 @@ Test accuracy: 48.75%
 
 该层可以接受一个输入并计算相应的输出，如图 E.2 所示。
 
-<img src="../Image/AppendixE/E.2.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixE/E.2.png" width="75%" />
+</div>
 
 我们可以通过以下代码来实现图 E.2 中描述的 LoRA 层：
 
@@ -373,7 +377,9 @@ class LoRALayer(torch.nn.Module):
 
 在 LoRA 中，典型的目标是替换现有的线性层，从而允许将权重更新直接应用于预先存在的预训练权重，如图 E.3 所示。
 
-<img src="../Image/AppendixE/E.3.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixE/E.3.png" width="75%" />
+</div>
 
 为了集成图 E.3 所示的原始线性层权重，我们现在创建一个 `LinearWithLoRA` 层。该层利用了之前实现的 `LoRALayer`，旨在替换神经网络中现有的线性层，例如 `GPTModel` 中的自注意力模块或前馈模块：
 
@@ -413,7 +419,9 @@ def replace_linear_with_lora(model, rank, alpha):
 
 我们现在已经实现了所有必要的代码，以将 `GPTModel` 中的线性层替换为新开发的 `LinearWithLoRA` 层，从而实现参数高效微调。在接下来的章节中，我们将把 `LinearWithLoRA` 升级应用于 `GPTModel` 的多头注意力模块、前馈模块和输出层中的所有线性层，如图 E.4 所示。
 
-<img src="../Image/AppendixE/E.4.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixE/E.4.png" width="75%" />
+</div>
 
 在我们应用如图 E.4 所示的 `LinearWithLoRA` 层升级之前，我们首先需要冻结原始模型的参数：
 
@@ -604,7 +612,9 @@ plot_values(epochs_tensor, examples_seen_tensor, train_losses, val_losses, label
 
 结果如图 E.5 所示。
 
-<img src="../Image/AppendixE/E.5.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixE/E.5.png" width="75%" />
+</div>
 
 除了基于图 E.5 中显示的损失曲线评估模型外，我们还要计算在完整训练集、验证集和测试集上的准确率（在训练过程中，我们通过 `eval_iter=5` 设置从 5 个批次中近似计算了训练集和验证集的准确率）：
 

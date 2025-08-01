@@ -134,7 +134,9 @@ plt.show()
 
 结果图如图 D.1 所示。
 
-<img src="../Image/AppendixD/D.1.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixD/D.1.png" width="75%" />
+</div>
 
 如图 D.1 所示，学习率从一个较低的值开始，并在 20 步内逐步增加，直到在 20 步后达到最大值。
 
@@ -186,7 +188,9 @@ plt.show()
 
 学习率曲线如图 D.2 所示。
 
-<img src="../Image/AppendixD/D.2.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixD/D.2.png" width="75%" />
+</div>
 
 如图 D.2 所示，学习率以线性预热阶段开始，在前 20 步内增加，直到在 20 步后达到最大值。在 20 步线性预热之后，余弦衰减开始起作用，逐渐降低学习率，直到达到最小值。
 

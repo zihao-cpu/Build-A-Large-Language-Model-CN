@@ -58,7 +58,9 @@ PyTorch 之所以如此受欢迎，部分原因在于其用户友好的界面和
 
 PyTorch 是一个功能全面的深度学习库，快速理解它的一种方法是从它的三个核心组件入手，在图 A.1 中对这三个组件进行了总结。
 
-<img src="../Image/AppendixA/A.1.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.1.png" width="75%" />
+</div>
 
 首先，PyTorch 是一个张量库，它在数组导向编程库 NumPy 的基础上扩展了功能，增加了对 GPU 加速计算的支持，从而实现了 CPU 和 GPU 之间的无缝切换。
 
@@ -78,7 +80,9 @@ PyTorch 是一个功能全面的深度学习库，快速理解它的一种方法
 
 机器学习是人工智能的一个子领域（如图 A.2 所示），其重点在于开发和改进学习算法。机器学习的核心思想是使计算机能够从数据中学习，并在无需编程的情况下进行预测或决策。这涉及到开发能够识别数据模式的算法，并通过更多的数据和反馈不断改进其性能。
 
-<img src="../Image/AppendixA/A.2.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.2.png" width="75%" />
+</div>
 
 机器学习在人工智能的发展中一直扮演着至关重要的角色，推动了包括大语言模型（LLM）在内的许多的技术进步，例如在线零售商和流媒体服务使用的推荐系统、电子邮件垃圾邮件过滤、虚拟助手中的语音识别，甚至是自动驾驶汽车。机器学习的引入和发展极大地增强了人工智能的能力，使其能够超越严格的基于规则的系统，并适应新的输入或变化的环境。
 
@@ -103,7 +107,9 @@ PyTorch 是一个功能全面的深度学习库，快速理解它的一种方法
 
 下图 A.3 总结了机器学习和深度学习中典型的预测建模工作流程（也称为监督学习）。
 
-<img src="../Image/AppendixA/A.3.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.3.png" width="75%" />
+</div>
 
 如上图所示，模型通过使用一种学习算法在包含示例及其对应标签的训练数据集上进行训练。例如，在电子邮件垃圾邮件分类器的案例中，训练数据集包含电子邮件及其由人工标注的垃圾邮件和非垃圾邮件标签。然后，训练好的模型可以用于新的观测数据（新的电子邮件），以预测它们未知的标签（垃圾邮件或非垃圾邮件）。
 
@@ -139,7 +145,9 @@ pip install torch
 
 然而，为了明确安装与 CUDA 兼容的 PyTorch 版本，通常最好指定你希望 PyTorch 兼容的 CUDA 版本。PyTorch 的官方网站 (https://pytorch.org) 提供了针对不同操作系统的、带有 CUDA 支持的 PyTorch 安装命令，如图 A.4 所示。
 
-<img src="../Image/AppendixA/A.4.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.4.png" width="75%" />
+</div>
 
 （注意，图 A.4 中显示的命令也会安装 torchvision 和 torchaudio 库，这两个库对于本书是可选的。）
 
@@ -189,7 +197,9 @@ True
 
 如果你没有 GPU，有一些云计算服务提供商可以按小时收费让你使用 GPU 进行计算。一个很受欢迎的、类似于 Jupyter Notebook 的环境是 Google Colab (https://colab.research.google.com)，截至本书撰写之时，它提供有时限的 GPU 使用权限。通过“运行时”菜单，你可以选择使用 GPU，如图 A.5 的截图所示。
 
-<img src="../Image/AppendixA/A.5.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.5.png" width="75%" />
+</div>
 
 > [!NOTE]
 >
@@ -221,7 +231,9 @@ True
 
 张量代表一个将向量和矩阵向更高维度的推广的数学概念。换句话说，张量是可以用它们的阶（或秩）来描述的数学对象，阶（或秩）表示了张量的维度数量。例如，一个标量（就是一个数字）是 0 阶张量，一个向量是 1 阶张量，一个矩阵是 2 阶张量，如图 A.6 所示。
 
-<img src="../Image/AppendixA/A.6.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.6.png" width="75%" />
+</div>
 
 从计算的角度来看，张量充当数据容器。例如，它们可以存储多维数据，其中每个维度代表一个不同的特征。张量库（例如 PyTorch）可以高效地创建、操作和计算这些多维数组。在这种情况下，张量库的作用类似于数组库。
 
@@ -448,7 +460,9 @@ loss = F.binary_cross_entropy(a, y)
 
 如果你不完全理解上面代码中的所有内容，不用担心。这个例子的重点不是实现一个逻辑回归分类器，而是为了说明我们如何将一系列计算视为一个计算图，如图 A.7 所示。
 
-<img src="../Image/AppendixA/A.7.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.7.png" width="75%" />
+</div>
 
 事实上，PyTorch 在后台构建了这样一个计算图，我们可以利用它来计算损失函数相对于模型参数（这里是 w1 和 b）的梯度，从而训练模型，这也是接下来章节的主题。
 
@@ -458,7 +472,9 @@ loss = F.binary_cross_entropy(a, y)
 
 在上一节中，我们介绍了计算图的概念。如果在 PyTorch 中进行计算，默认情况下，PyTorch 通过构建计算图，并利用你设置的 `requires_grad=True` 标记，就能自动帮你计算出训练神经网络所需的关键信息——梯度，而反向传播就是利用这些梯度来更新模型参数，让模型变得更聪明。如图 A.8 所示。
 
-<img src="../Image/AppendixA/A.8.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.8.png" width="75%" />
+</div>
 
 > [!TIP]
 >
@@ -544,7 +560,9 @@ print(b.grad)
 
 为了提供一个具体的例子，我们将重点介绍多层感知器，它是一种全连接神经网络，如图 A.9 所示。
 
-<img src="../Image/AppendixA/A.9.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.9.png" width="75%" />
+</div>
 
 在 PyTorch 中实现神经网络时，我们通常会继承 `torch.nn.Module` 类来定义我们自己的自定义网络架构。这个 `Module` 基类提供了许多功能，使得构建和训练模型更加容易。例如，它允许我们封装层和操作，并跟踪模型的参数。
 
@@ -762,7 +780,9 @@ tensor([[0.3113, 0.3934, 0.2952]])
 
 在上一节中，我们自定义了一个神经网络模型。在训练这个模型之前，我们需要简要地讨论一下如何在 PyTorch 中创建高效的数据加载器，以便在训练模型的过程中使用。PyTorch 中数据加载的总体思路如图 A.10 所示。
 
-<img src="../Image/AppendixA/A.10.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.10.png" width="75%" />
+</div>
 
 根据图 A.10 中的说明，在本节中，我们将实现一个自定义的 `Dataset` 类，接着使用它来创建训练数据集和测试数据集，最后用这些数据集来创建数据加载器。
 
@@ -926,7 +946,9 @@ Batch 2: tensor([[ 2.7000, -1.5000],
 
 最后，让我们讨论一下 `DataLoader` 中的 `num_workers=0` 这个设置。PyTorch `DataLoader` 函数中的这个参数对于并行化数据加载和预处理至关重要。当 `num_workers` 设置为 0 时，数据加载将在主进程中完成，而不是在单独的工作进程中。这看起来可能没什么问题，但当我们使用 GPU 训练更大的网络时，可能会导致模型训练速度显著下降。这是因为 CPU 除了专注于深度学习模型的处理外，还必须花费时间来加载和预处理数据。结果，GPU 可能会在等待 CPU 完成这些任务时处于空闲状态。相反，当 `num_workers` 设置为大于零的数字时，会启动多个工作进程来并行加载数据，从而使主进程可以专注于训练你的模型并更好地利用系统的资源，如图 A.11 所示。
 
-<img src="../Image/AppendixA/A.11.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.11.png" width="75%" />
+</div>
 
 然而，如果我们处理的是非常小的数据集，那么将 `num_workers` 设置为 1 或更大的值可能没有必要，因为总的训练时间可能只需要几分之一秒。相反，如果你处理的是非常小的数据集或者像 Jupyter 笔记本这样的交互式环境，增加 `num_workers` 可能不会带来任何明显的加速。事实上，它们甚至可能导致一些问题。一个潜在的问题是启动多个工作进程的开销，当你的数据集很小时，这个开销可能比实际的数据加载时间还要长。
 
@@ -1386,7 +1408,9 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 这是如何工作的呢？PyTorch 在每个 GPU 上启动一个独立的进程，每个进程都会接收并保存模型的副本——这些副本在训练过程中会保持同步。为了说明这一点，假设我们有两个想要用来训练神经网络的 GPU，如图 A.12 所示。
 
-<img src="../Image/AppendixA/A.12.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.12.png" width="75%" />
+</div>
 
 如上图所示，两个 GPU 中的每一个都将接收到模型的一个副本。然后，在每个训练迭代中，每个模型都将从数据加载器接收到一个小批量（或称为批次）。我们可以使用 `DistributedSampler` 来确保在使用 DDP 时，每个 GPU 都将接收到不同的、不重叠的批次。
 
@@ -1408,7 +1432,9 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 >
 > 简单来说，多 GPU 训练就像是让多个“学生”（GPU）同时学习不同的“教材”（数据），然后定期交流“学习心得”（梯度），最终让每个“学生”都掌握相同的知识（更新后的模型）。
 
-<img src="../Image/AppendixA/A.13.png" width="75%" />
+<div style="text-align: center;">
+    <img src="Image/AppendixA/A.13.png" width="75%" />
+</div>
 
 使用 DDP 的好处是，与单个 GPU 相比，它可以显著提高处理数据集的速度。除去使用 DDP 带来的设备之间微小的通信开销，理论上，使用两个 GPU 可以将一个训练 epoch 的处理时间缩短一半，而使用一个 GPU 则需要更长的时间。这种时间效率随着 GPU 数量的增加而提高，如果我们有八个 GPU，就可以将一个 epoch 的处理速度提高八倍，以此类推。
 
