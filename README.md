@@ -79,6 +79,7 @@
 <img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
 
 ## 最新文章
+[GPT 5祛魅时刻：当OpenAI陷入内卷，谷歌已在布局下一个十年](https://mp.weixin.qq.com/s/7WNZmwdzHCiMhWPUGSv4pA)<br />
 [大模型上下文工程之Prefill Response（预填响应）技巧](https://mp.weixin.qq.com/s/fMeg0wcCd4XZPSN5EouLcg)<br />
 [大模型上下文工程之Prefix Caching技术详解](https://mp.weixin.qq.com/s/TA7DY1cynVNPYW-sVI2zHw)<br />
 [产品级AI应用的核心：上下文工程](https://mp.weixin.qq.com/s/93rEhMY7rIUlHIiPPDvEag) <br />
