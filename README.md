@@ -50,6 +50,12 @@
 + [附录D：给训练循环添加高级技巧](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/附录D.给训练循环添加高级技巧.md)
 + [附录E：使用 LoRA 的参数高效微调](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/附录E.使用LoRA的参数高效微调.md)
 
+
+### 新书推荐
+
++ [《Google DeepMind - How to Scale Your Model》电子书中文翻译项目](https://github.com/skindhu/How-To-Scale-Your-Model-CN)
+
+
 ## 个人思考
 
 巴克莱在最近发布的研报中提出了一份“AI路线图”，描绘了未来AI技术应用的演进路径，我个人比较认同。报告指出，AI的应用将经历三个重要阶段，首先是当下的**第一阶段**：聊天机器人和早期的AI助理（Copilot），因为目前主要是侧重于基础设置的建设和模型能力的竞赛。接下来在2025-2026年将迎来“真AI代理时代”的人**第二阶段**，这一阶段的核心在于能够自主完成任务的AI代理的广泛应用。与聊天机器人和Copilot不同，AI代理能完成相对复杂的任务，尽量减少人类的直接干预。而在2027年以后，AI技术将进一步进入“数字员工与机器人时代”**第三阶段**”（应该是所谓的具身智能），在企业应用中，AI代理可能演变成独立完成任务的“数字员工”，在消费者市场，智能机器人将开始逐步融入家庭生活，承担简单和重复性的日常任务。
@@ -79,6 +85,7 @@
 <img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
 
 ## 最新文章
+[我是如何快速翻译Google DeepMind出品的《How to Scale Your Model》电子书](https://mp.weixin.qq.com/s/-mURsM3VXmOUXmbxEkCfxA) <br />
 [从源码看Google LangExtract如何应对长文本数据挖掘的挑战](https://mp.weixin.qq.com/s/2GfgVfi_y47ioBsKLbMPrA)<br />
 [GPT 5祛魅时刻：当OpenAI陷入内卷，谷歌已在布局下一个十年](https://mp.weixin.qq.com/s/7WNZmwdzHCiMhWPUGSv4pA)<br />
 [大模型上下文工程之Prefill Response（预填响应）技巧](https://mp.weixin.qq.com/s/fMeg0wcCd4XZPSN5EouLcg)<br />
