@@ -85,6 +85,7 @@
 <img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
 
 ## 最新文章
+[最近爆火的Nano-Banana模型，你会玩了么？](https://mp.weixin.qq.com/s/qTnDKI-F5Teu0pQJoBJLeA)<br />
 [我是如何快速翻译Google DeepMind出品的《How to Scale Your Model》电子书](https://mp.weixin.qq.com/s/-mURsM3VXmOUXmbxEkCfxA) <br />
 [从源码看Google LangExtract如何应对长文本数据挖掘的挑战](https://mp.weixin.qq.com/s/2GfgVfi_y47ioBsKLbMPrA)<br />
 [GPT 5祛魅时刻：当OpenAI陷入内卷，谷歌已在布局下一个十年](https://mp.weixin.qq.com/s/7WNZmwdzHCiMhWPUGSv4pA)<br />
